@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.volley2.samples.bekup.farid.volleysample2.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Text"
+        android:id="@+id/btn_getText"
+        android:minWidth="200dp"
+        android:onClick="btnOnclick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get XML"
+        android:minWidth="200dp"
+        android:id="@+id/btn_getXML"
+        android:onClick="btnOnclick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get JSON"
+        android:minWidth="200dp"
+        android:id="@+id/btn_getJSON"
+        android:onClick="btnOnclick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Bitmap"
+        android:minWidth="200dp"
+        android:id="@+id/btn_getBitmap"
+        android:onClick="btnOnclick"
+        />
+</LinearLayout>
